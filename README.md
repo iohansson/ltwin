@@ -1,6 +1,12 @@
-# Nuxt 3 Minimal Starter
+## Note
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+Hi! Had quite a bit of fun with the challenge. Thought about trying out [Astro](https://astro.build) but then changed my mind and went with the new Nuxt. It's my first time with Nuxt 3 ;)
+
+Spent a bit more time to add some nice things. So now this app has a view switcher (table/grid), a theme switcher (dark/light), and a pagination.
+
+Deployed it to Netlify as well but something went wrong with the production build, don't have time to debug Nuxt right now, sorry. I hope running the dev server to look at the app would suffice.
+
+Tell me what you think :)
 
 ## Setup
 
@@ -22,7 +28,7 @@ pnpm install --shamefully-hoist
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+yarn run dev
 ```
 
 ## Production
@@ -30,13 +36,12 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+yarn run build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+yarn run preview
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
