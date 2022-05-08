@@ -4,7 +4,9 @@ Hi! Had quite a bit of fun with the challenge. Thought about trying out [Astro](
 
 Spent a bit more time to add some nice things. So now this app has a view switcher (table/grid), a theme switcher (dark/light), and a pagination.
 
-Deployed it to Netlify as well but something went wrong with the production build, don't have time to debug Nuxt right now, sorry. I hope running the dev server to look at the app would suffice.
+Deployed it to Netlify as well but something went wrong with the production build, don't have time to debug Nuxt right now, sorry. I hope running the dev server to look at the app would suffice. You'll need a [Protocols](https://apidoc.protocols.io/#authentication) access token though :( There's a `.env.local.default` file in the repo, just rename it to .`env.local` and insert your token there.
+
+I might dig into what went wrong with the production build meanwhile, so if you feel lazy about getting the access token, you might wanna wait until I fix the deployed version.
 
 Tell me what you think :)
 
