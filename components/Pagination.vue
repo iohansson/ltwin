@@ -63,8 +63,8 @@ const range = computed(() => {
     .filter(p => p > 0 && p <= pagination.value.total_pages);
 });
 
-const deltaLeft = computed(() => range.value.at(0) - 1);
-const deltaRight = computed(() => pagination.value.total_pages - range.value.at(-1));
+const deltaLeft = computed(() => range.value[0] - 1);
+const deltaRight = computed(() => pagination.value.total_pages - range.value[range.value.length - 1]);
 
 const emit = defineEmits(['change']);
 </script>
