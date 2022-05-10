@@ -23,7 +23,9 @@
 </template>
 <script setup>
 const page = ref(1);
-const { data, pending, refresh, error } = await useFetch(() => `/api/protocols?page=${page.value}`);
+const { data, pending, refresh, error } = await useFetch(() => `/api/protocols?page=${page.value}`, {
+  key: 'protocols',
+});
 
 const pagination = computed(() => data.value.pagination);
 const protocols = computed(() => data.value.items);
